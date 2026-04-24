@@ -15,7 +15,7 @@ btn.onclick = function() {
   "<td>" + t + "</td>" +
   "<td>" + a + "</td>" +
   "<td>" + i + "</td>" +
-  "<td><button onclick='deleteRow(this)'>Clear</button></td>" +
+  "<td><button  class=`delete` onclick='deleteRow(this)'>Clear</button></td>" +
   "</tr>";
 }
 
